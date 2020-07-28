@@ -125,7 +125,7 @@ function Navbar() {
             <NavbarItem {...item} key={i} />
           ))}
         </div>
-        <div className="navbar__items navbar__items--right">
+        {/* <div className="navbar__items navbar__items--right">
           {rightItems.map((item, i) => (
             <NavbarItem {...item} key={i} />
           ))}
@@ -141,7 +141,7 @@ function Navbar() {
             handleSearchBarToggle={setIsSearchBarExpanded}
             isSearchBarExpanded={isSearchBarExpanded}
           />
-        </div>
+        </div> */}
       </div>
       <div
         role="presentation"
